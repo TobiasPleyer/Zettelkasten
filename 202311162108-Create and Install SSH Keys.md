@@ -19,3 +19,6 @@ Install (copy) it on the remote machine
 ```
 $ ssh-copy-id username@remote.machine
 ```
+
+A good explanation of SSH and its authentication variants can be found in this
+[Illustrated Guide to SSH Agent Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)
