@@ -18,7 +18,8 @@ and in that folder I created a directory for every year I need:
 $ mkdir ~/.local/share/mail/tobi.pleyer@gmail.com/Archive
 $ cd ~/.local/share/mail/tobi.pleyer@gmail.com/Archive
 $ mkdir 20{12,13,14,15,16,17,18,19,20,21,22,23}
-$ for d in 20*; do pushd $d; mkdir cur; mkdir new; mkdir tmp; popd; done
+$ # for d in 20*; do pushd $d; mkdir cur; mkdir new; mkdir tmp; popd; done
+$ for d in 20*; mmkdir $d; done
 ```
 
 ## Moving mails to archive and delete them from GMail
